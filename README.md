@@ -1,6 +1,6 @@
 # HereHere
 
-React Native App built with Expo and consuming Google Places API with a Node.js backend. Integration with socket.io. Built for Android.
+React Native App built with Expo, Socket.io and consuming Google Places API with a Node.js backend and MongoDB for persistence.
 
 - **NOTE:** This is app is no longer maintained or released due to lack of time to support the project
 
