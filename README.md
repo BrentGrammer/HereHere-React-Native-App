@@ -14,6 +14,8 @@
   - Node.js server using Mongoose for MongoDB
   - Socket.io for websocket chat functionality
 
+## HereHere-app React-Native mobile app
+ 
 ### Find out what's happening at a place from those who are there right now!
 
 React Native App built with Expo and consuming Google Places API. Integration with socket.io. Built for Android.
