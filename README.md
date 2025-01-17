@@ -33,6 +33,7 @@ React Native App built with Expo and consuming Google Places API with a Node.js 
 - redux-thunk
 - Expo (using React-Navigation)
 - Socket.io library to use WebSockets
+- Node.js with Express and Mongoose
 - MongoDB for persisting data
 - Consumes Google Places API - \* You must have billing enabled for the project in GCP for this to work
 
