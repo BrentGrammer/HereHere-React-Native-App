@@ -9,22 +9,7 @@ React Native App built with Expo and consuming Google Places API with a Node.js 
 ## Components
 
 - HereHere-app
-  - React-Native application built with Expo
-  - React Redux, Redux-thunk
 - HereHere-server
-  - Node.js server using Express and Mongoose for MongoDB
-  - Socket.io for websocket chat functionality
-
-### Find out what's happening at a place from those who are there right now!
-
-### Features:
-
-- Users search places in Google Maps and chat live with other users who are there to find out what's going on.
-- Users can find out how many people are at a place - if it's crowded or not, what the crowd is like, any special deals going on, what's on the menu, etc. to determine if they want to visit without having to call. Get inside information from people who are there!
-- Socket.io for live chat over web sockets
-- Search for any place and get auto suggestions through the Google Places API
-- Login to save places or use the app without logging in
-- Ephemereal chat messages which are cleared every 3 hours - get the latest info on what's going on at a place
 
 ### Technologies used:
 
@@ -36,6 +21,17 @@ React Native App built with Expo and consuming Google Places API with a Node.js 
 - Node.js with Express and Mongoose
 - MongoDB for persisting data
 - Consumes Google Places API - \* You must have billing enabled for the project in GCP for this to work
+
+### Find out what's happening at a place from those who are there right now!
+
+### Features:
+
+- Users search places in Google Maps and chat live with other users who are there to find out what's going on.
+- Users can find out how many people are at a place - if it's crowded or not, what the crowd is like, any special deals going on, what's on the menu, etc. to determine if they want to visit without having to call. Get inside information from people who are there!
+- Socket.io for live chat over web sockets
+- Search for any place and get auto suggestions through the Google Places API
+- Login to save places or use the app without logging in
+- Ephemereal chat messages which are cleared every 3 hours - get the latest info on what's going on at a place
 
 ## HereHere-server Node.js backend
 
