@@ -12,7 +12,7 @@ React Native App built with Expo and consuming Google Places API with a Node.js 
   - React-Native application built with Expo
   - React Redux, Redux-thunk
 - HereHere-server
-  - Node.js server using Mongoose for MongoDB
+  - Node.js server using Express and Mongoose for MongoDB
   - Socket.io for websocket chat functionality
 
 ### Find out what's happening at a place from those who are there right now!
@@ -42,6 +42,7 @@ React Native App built with Expo and consuming Google Places API with a Node.js 
 
 ### Libraries and Technology used:
 
+- [Express](https://expressjs.com/)
 - SocketIO for websocket integration
 - Express framework for building server and API route controllers
 - AWS JavaScript SDK for accessing AWS S3 services and buckets
