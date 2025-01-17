@@ -1,0 +1,45 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --config=jest.config.json",
+    "jest": "jest --config=jest.config.json"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "@expo/vector-icons": "^10.0.0",
+    "expo": "^38.0.0",
+    "expo-constants": "~9.1.1",
+    "expo-image-manipulator": "~8.2.1",
+    "expo-image-picker": "~8.3.0",
+    "expo-location": "~8.2.1",
+    "expo-permissions": "~9.0.1",
+    "expo-web-browser": "~8.3.1",
+    "moment": "^2.23.0",
+    "react": "16.11.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-maps": "0.27.1",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-screens": "~2.9.0",
+    "react-navigation": "^3.11.1",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "2.1.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^8.2.3",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "enzyme-to-json": "^3.3.5",
+    "jest-expo": "^38.0.0",
+    "react-dom": "16.11.0",
+    "react-test-renderer": "^16.7.0"
+  },
+  "private": true
+}

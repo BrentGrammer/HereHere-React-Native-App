@@ -1,0 +1,12 @@
+{
+  "preset": "jest-expo",
+  "setupFiles": [
+      "<rootDir>/jest.config.js"
+  ],
+  "testMatch": ["**/__tests__/**/*.test.js"],
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "verbose": true,
+  "testURL": "http://localhost/"
+}

@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "HereHere",
+    "slug": "here-here",
+    "privacy": "public",
+    "platforms": ["android"],
+    "version": "1.6.5",
+    "description": "version 1.6.5: Location based chat application - Find or lookup a place on the map and chat with people who are there.  See users list with personal or business taglines - if you're interested, send a message and meet with the person there.  If you're just looking to find a hot spot, you can also decide whether to head there or check out some place else by getting real time updates from people who are there.",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "versionCode": 22,
+      "config": {
+        "googleMaps": {
+          "apiKey": "your-google-maps-api-key"
+        }
+      },
+      "package": "com.brentmarquez.herehere",
+      "permissions": [
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA_ROLL",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "sdkVersion": "38.0.0"
+  }
+}

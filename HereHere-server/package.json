@@ -1,0 +1,29 @@
+{
+  "name": "herehere-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "Brent Marquez",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "set NODE_ENV=development && nodemon index.js"
+  },
+  "engines": {
+    "node": "12.18.2",
+    "npm": "6.4.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.384.0",
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.5.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.1",
+    "socket.io": "^2.2.0",
+    "uuidv4": "^2.0.0"
+  }
+}
