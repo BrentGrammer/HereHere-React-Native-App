@@ -11,5 +11,5 @@
   - React-Native application built with Expo
   - React Redux, Redux-thunk
 - HereHere-server
-  - Node.js server using Mongooese
+  - Node.js server using Mongoose for MongoDB
   - Socket.io for websocket chat functionality
