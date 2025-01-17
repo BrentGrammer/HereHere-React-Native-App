@@ -8,8 +8,8 @@ React Native App built with Expo and consuming Google Places API with a Node.js 
 
 ## Components
 
-- HereHere-app
-- HereHere-server
+- HereHere-app (The React-Native app)
+- HereHere-server (Node.js backend server)
 
 ### Technologies used:
 
