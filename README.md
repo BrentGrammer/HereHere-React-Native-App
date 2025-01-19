@@ -40,9 +40,7 @@ A place based real-time chat application built with React Native (Expo), Socket.
 
 ### Libraries and Technology used:
 
-- [Express](https://expressjs.com/)
-- SocketIO for websocket integration
-- Express framework for building server and API route controllers
+- [Express](https://expressjs.com/) framework for building server and API route controllers
+- [Socket.io](https://socket.io/) for websocket integration
+- Mongoose library (MongoDB integration)
 - AWS JavaScript SDK for accessing AWS S3 services and buckets
-- MongoDB for persisting conversations and messages
-- Mongoose library
