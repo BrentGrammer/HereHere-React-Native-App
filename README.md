@@ -1,8 +1,8 @@
 # HereHere
 
-React Native App built with Expo, Socket.io and consuming Google Places API with a Node.js backend and MongoDB for persistence.
+A place based real-time chat application built with React Native (Expo), Socket.io and consuming Google Places API with a Node.js backend and MongoDB for persistence.
 
-- **NOTE:** This is app is no longer maintained or released due to lack of time to support the project
+- **NOTE:** This is app is no longer maintained or released.
 
 <p align="center"> <img src="screenshots/herehere1.webp" width="180" height="390" style="margin-right: 10px;"> <img src="screenshots/herehere2.webp" width="180" height="390" style="margin-right: 10px;"> <img src="screenshots/herehere4.webp" width="180" height="390" style="margin-right: 10px;"> <img src="screenshots/herehere5.webp" width="180" height="390"> </p>
 
@@ -21,17 +21,17 @@ React Native App built with Expo, Socket.io and consuming Google Places API with
 - Node.js with Express and Mongoose
 - MongoDB for persisting data
 - Consumes Google Places API - \* You must have billing enabled for the project in GCP for this to work
-
-### Find out what's happening at a place from those who are there right now!
+- AWS S3 for storing profile photo and avatars
+- Expo
 
 ### Features:
 
-- Users search places in Google Maps and chat live with other users who are there to find out what's going on.
-- Users can find out how many people are at a place - if it's crowded or not, what the crowd is like, any special deals going on, what's on the menu, etc. to determine if they want to visit without having to call. Get inside information from people who are there!
+- Users search places via Google Maps API, select a location and chat live with other users who are there
 - Socket.io for live chat over web sockets
 - Search for any place and get auto suggestions through the Google Places API
 - Login to save places or use the app without logging in
 - Ephemereal chat messages which are cleared every 3 hours - get the latest info on what's going on at a place
+- User profiles and photo/avatar
 
 ## HereHere-server Node.js backend
 
