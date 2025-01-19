@@ -32,6 +32,7 @@ A place based real-time chat application built with React Native (Expo), Socket.
 - Login to save places or use the app without logging in
 - Ephemereal chat messages which are cleared every 3 hours - get the latest info on what's going on at a place
 - User profiles and photo/avatar
+- Private messaging
 
 ## HereHere-server Node.js backend
 
